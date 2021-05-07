@@ -1,0 +1,5 @@
+﻿  main.c
+H:\Game_Academy\Prepa\Cours\Projets_cours\CSFML_Base\CSFML_Base\main.c(12,13): warning C4101: 'viewPos' : variable locale non référencée
+  tools.c
+  Génération de code en cours...
+  CSFML_Base.vcxproj -> H:\Game_Academy\Prepa\Cours\Projets_cours\CSFML_Base\Debug32\CSFML_Base.exe

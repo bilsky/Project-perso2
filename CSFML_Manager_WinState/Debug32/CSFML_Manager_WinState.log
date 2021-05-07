@@ -1,0 +1,42 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: Le répertoire intermédiaire (Debug32\) contient des fichiers partagés provenant d'un autre projet (CSFML_Base.vcxproj). Cela peut entraîner un comportement de nettoyage et de régénération incorrect.
+  Fond.c
+  Mobs.c
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(8,35): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(20,37): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(21,37): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(123,57): warning C4020: 'PrepareTir' : paramètres réels trop nombreux
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(370,28): warning C4305: '+=' : troncation de 'double' à 'float'
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(382,33): warning C4244: '+=' : conversion de 'double' en 'int', perte possible de données
+  Player.c
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(116,40): warning C4090: '=' : qualificateurs 'const' différents
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(170,34): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(181,38): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(193,34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(194,34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(196,34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(197,34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  Tirs.c
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(12,1): warning C4029: la déclaration de la liste de paramètres formels est différente de la définition
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(23,113): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(29,113): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(34,75): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(35,75): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(39,77): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(40,77): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(94,33): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(95,34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(153,78): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(154,78): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(158,77): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(159,77): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(188,34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(189,33): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  main.c
+  stateManager.c
+  tools.c
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\tools.c(123,52): warning C4133: 'fonction' : types incompatibles - de 'sfRenderWindow *' à 'const sfWindow *'
+  windowManager.c
+  Génération de code en cours...
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(145): warning C4716: 'displayView' : doit retourner une valeur
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(219): warning C4716: 'displayATH' : doit retourner une valeur
+  CSFML_Manager_WinState.vcxproj -> C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\Debug32\CSFML_Manager_WinState.exe

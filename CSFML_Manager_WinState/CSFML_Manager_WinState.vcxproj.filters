@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\ENGINE">
+      <UniqueIdentifier>{27ff1d42-462f-4555-bf81-89c19c01e9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ENGINE">
+      <UniqueIdentifier>{1c5df454-5268-42c1-8010-d009c2ec52f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GAME">
+      <UniqueIdentifier>{4431b62d-7759-4bf3-a1a6-64d636991003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GAME">
+      <UniqueIdentifier>{858328e5-f115-4146-a59d-8315bf85b6d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.c">
+      <Filter>Fichiers sources\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="windowManager.c">
+      <Filter>Fichiers sources\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="stateManager.c">
+      <Filter>Fichiers sources\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.c">
+      <Filter>Fichiers sources\GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="Fond.c">
+      <Filter>Fichiers sources\GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="Mobs.c">
+      <Filter>Fichiers sources\GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="Tirs.c">
+      <Filter>Fichiers sources\GAME</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dirent.h">
+      <Filter>Fichiers d%27en-tête\ENGINE</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Fichiers d%27en-tête\ENGINE</Filter>
+    </ClInclude>
+    <ClInclude Include="windowManager.h">
+      <Filter>Fichiers d%27en-tête\ENGINE</Filter>
+    </ClInclude>
+    <ClInclude Include="stateManager.h">
+      <Filter>Fichiers d%27en-tête\ENGINE</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="Fond.h">
+      <Filter>Fichiers d%27en-tête\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="Mobs.h">
+      <Filter>Fichiers d%27en-tête\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="Tirs.h">
+      <Filter>Fichiers d%27en-tête\GAME</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿  Fond.c
+  main.c
+  Mobs.c
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(8,35): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(19,35): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(20,35): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(76,57): warning C4020: 'PrepareTir' : paramètres réels trop nombreux
+  Player.c
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Player.c(98,40): warning C4090: '=' : qualificateurs 'const' différents
+  stateManager.c
+  Tirs.c
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(11,1): warning C4029: la déclaration de la liste de paramètres formels est différente de la définition
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(22,113): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(28,113): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(30,57): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(31,57): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(66,49): warning C4133: 'fonction' : types incompatibles - de 'sfRenderWindow *' à 'const sfWindow *'
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(67,49): warning C4133: 'fonction' : types incompatibles - de 'sfRenderWindow *' à 'const sfWindow *'
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(79,49): warning C4133: 'fonction' : types incompatibles - de 'sfRenderWindow *' à 'const sfWindow *'
+C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(80,49): warning C4133: 'fonction' : types incompatibles - de 'sfRenderWindow *' à 'const sfWindow *'
+  tools.c
+  windowManager.c
+  Génération de code en cours
+  55 of 55 functions (100.0%) were compiled.
+    21 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  CSFML_Manager_WinState.vcxproj -> C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\Release64\CSFML_Manager_WinState.exe
