@@ -19,7 +19,8 @@ void stateInit(Window* _window)
 		}
 		if (state == MENU)
 		{
-			
+			viewinit(_window->renderWindow);
+			initPlayer();
 			initfondMenu();
 		}
 		if (state == GAME)
@@ -48,7 +49,9 @@ void stateUpdate(Window* _window)
 	}
 	if (state == MENU)
 	{
-		
+		updatefond();
+		updateView();
+		updatePlayer();
 		if (sfKeyboard_isKeyPressed(sfKeyEnter))
 		{
 			changeState(_window,GAME);
@@ -56,7 +59,7 @@ void stateUpdate(Window* _window)
 	}
 	if (state == GAME)
 	{
-		updatefond();
+		
 		updateBonus();
 		updatePlayer();
 		updateVie();

@@ -6,6 +6,7 @@
 #include "stateManager.h"
 #define VITESSEPERSO 700
 typedef struct Perso Perso;
+sfVector2f ViewPos;
 struct Perso
 {
 

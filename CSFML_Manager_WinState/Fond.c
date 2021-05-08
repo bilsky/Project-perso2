@@ -1,4 +1,5 @@
 #include "Fond.h"
+#include "Player.h"
 sfSprite* Background;
 sfSprite* BackgroundMenu;
 void initFond()
@@ -9,7 +10,8 @@ void initFond()
 
 void updatefond()
 {
-
+	ViewPos.x = 0;
+	ViewPos.y = 0;
 }
 
 void DiplayFond(sfRenderWindow* _window)

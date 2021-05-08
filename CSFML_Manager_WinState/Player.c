@@ -19,8 +19,8 @@ void initPlayer()
 	Balles = 20;
 	Corruption = 0;
 	Persos.perso = CreateSprite("../Ressources/Textures/Perso_et_Npc/Mc.png");
-	Persos.posperso.x = 100;
-	Persos.posperso.y = 602;
+	Persos.posperso.x = 1920;
+	Persos.posperso.y = 1080;
 	Persos.Pvperso = PVMAX;
 	sfSprite_setOrigin(Persos.perso, originePerso);
 	sfSprite_setPosition(Persos.perso, Persos.posperso);
@@ -85,6 +85,23 @@ void updatePlayer()
 		TempTirs = TempTirs->TirsSuivant;
 	}
 
+	if (Persos.posperso.x<=120)
+	{
+		Persos.posperso.x =120;
+	}
+	if (Persos.posperso.x >= 1920 * 2-120)
+	{
+		Persos.posperso.x = 1920 *2-120;
+	}
+	if (Persos.posperso.y <= 0 + 160)
+	{
+		Persos.posperso.y = 0 + 160;
+
+	}
+	if (Persos.posperso.y >= 1080 * 2- 160)
+	{
+		Persos.posperso.y = 1080 * 2- 160;
+	}
 
 }
 
@@ -97,7 +114,7 @@ void DrawPlayer(sfRenderWindow* _window)
 }
 
 sfView* view;
-sfVector2f ViewPos;
+
 sfFloatRect rectView = { 1920,1080,1920 / 2,1080 / 2 };
 
 sfView* getview()
@@ -108,8 +125,6 @@ sfView* getview()
 sfView* viewinit(sfRenderWindow* _window)
 {
 	view = sfView_create();
-
-
 	sfFloatRect rectViewPort = { 0.f, 0.f, 1.0f, 1.0f };
 	sfView_setViewport(view, rectViewPort);
 	sfView_reset(view, rectView);
@@ -121,12 +136,29 @@ sfView* viewinit(sfRenderWindow* _window)
 
 void updateView()
 {
-		ViewPos.x = Persos.posperso.x;
-		ViewPos.y = Persos.posperso.y;
+	ViewPos.x = Persos.posperso.x;
+	ViewPos.y = Persos.posperso.y;
+	if (ViewPos.x <= +1920 / 2)
+	{
+		ViewPos.x = 1920 / 2;
+	}
+	if (ViewPos.x >= 1920*1.5)
+	{
+		ViewPos.x = 1920 * 1.5;
+	}
+	if (ViewPos.y <= 1080/2)
+	{
+		ViewPos.y = 1080 / 2;
+	}
+	if (ViewPos.y >= 1080 * 1.5)
+	{
+		ViewPos.y = 1080 * 1.5;
+	}
+	sfView_setCenter(view, ViewPos);
 
-		sfView_setCenter(view, ViewPos);
+		
 	
-	
+		
 
 }
 

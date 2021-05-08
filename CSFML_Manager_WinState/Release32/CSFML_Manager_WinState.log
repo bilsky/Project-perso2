@@ -1,29 +1,7 @@
-﻿  Mobs.c
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(8,34): warning C4305: 'initialisation' : troncation de 'double' à 'float'
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(26,37): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(27,37): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(137,57): warning C4020: 'PrepareTir' : paramètres réels trop nombreux
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(397,28): warning C4305: '+=' : troncation de 'double' à 'float'
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Mobs.c(409,33): warning C4244: '+=' : conversion de 'double' en 'int', perte possible de données
-  Tirs.c
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(12,2): warning C4029: la déclaration de la liste de paramètres formels est différente de la définition
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(23,114): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(29,114): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(34,76): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(35,76): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(39,78): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(40,78): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(94,33): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(95,34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(153,78): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(154,78): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(158,77): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(159,77): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(188,34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\CSFML_Manager_WinState\Tirs.c(189,33): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+﻿  stateManager.c
   Génération de code en cours
-  0 of 70 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  5 of 70 functions ( 7.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Fin de la génération du code
-  CSFML_Manager_WinState.vcxproj -> C:\Users\p.viltard\Desktop\Project Perso\CSFML_Manager_WinState\Release32\CSFML_Manager_WinState.exe
+  CSFML_Manager_WinState.vcxproj -> C:\Users\connard\Documents\GitHub\Project-perso2\Release32\CSFML_Manager_WinState.exe

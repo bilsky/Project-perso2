@@ -14,7 +14,7 @@ sfVector2f dirbos = { 0,0 };
 sfVector2f scalebos = { 0.5,0.5 };
 sfVector2f oroginebos = { 640 / 2,640 / 2 };
 float timer = 0;
-
+int nombremob = 0;
 
 void PrepareMOb(sfSprite* _enemies, int _HP, float _Vit, sfVector2f _Direction, sfVector2f _PosMob)
 {
@@ -115,16 +115,17 @@ void UpdateMob()
 	Mob* TempMob = debutMob;
 	timer += GetTimeDelta();
 	timerMobsSpawn += GetTimeDelta();
-	if (timerMobsSpawn >= 3)
+	if (timerMobsSpawn >= 3&& nombremob<=10)
 	{
 		PrepareMOb(mobs, 4, 5.0, posMob, dirMob);
+		nombremob += 1;
 		timerMobsSpawn = 0;
 		timerBoss += 1;
 	}
-	else if (timerBoss >= 15)
+	else if (timerBoss >= 15 && nombremob <= 10)
 	{
 		PrepareMOb(bos, 4, 5.0, posMob, dirMob);
-
+		nombremob += 1;
 		timerBoss = 0;
 	}
 
@@ -166,6 +167,7 @@ void UpdateMob()
 			Preparebonus(Bible, TempMob->PosMob.x, TempMob->PosMob.y, iRand(0, 15));
 			
 			TempMob = retirMob(TempMob);
+			nombremob -= 1;
 			score += 100;
 
 		}
@@ -179,6 +181,7 @@ void UpdateMob()
 		{
 		
 			TempMob = retirMob(TempMob);
+			
 		}
 		else
 		TempMob = TempMob->MobsSuivant;
@@ -410,6 +413,13 @@ void updateBonus()
 		recoveriDieu = 0;
 	}
 	
+
+
+
+
+
+
+
 }
 
 void displayBonus(sfRenderWindow* _window)
